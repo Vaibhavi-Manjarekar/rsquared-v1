@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+.container {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #E8E7E7;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+}
+
+.title {
+    font-size: 88px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 20px;
+    max-width: 800px;
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+
+.line {
+    width: 80px;
+    height: 2px;
+    background-color: black;
+    margin: 10px auto 20px auto;
+    opacity: 0.6;
+}
+
+.subsection {
+    width: 100%;
+    background-color: #F4C0AF;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    border: 2px solid black; 
+    margin-top: 20px; 
+}
+
+.cardTitle {
+    font-size: 30px;
+}
+
+.card {
+    background-color: #F6EBE4;
+    width: 250px;
+    padding: 30px;
+    border-radius: 0px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: "Poppins", sans-serif;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
