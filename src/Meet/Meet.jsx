@@ -18,9 +18,14 @@ function Meet() {
                         className={styles.image}
                     />
                     <div className = {styles.infoSection}>
-                    <h2 className={styles.name}>Abigail Shi, President</h2>
+                    <h2 className={styles.name}>Abigail Shi</h2>
+                    <p className={styles.subheader}>
+                        President • Junior • Biology Major • Stats Minor
+                    </p>
                     <p className={styles.bio}>
-                        Passionate about statistical research and public health analytics.
+                       I'm passionate about research because I think learning about new things is both important and fun! Especially in the day and age 
+                        of having so much information available at our fingertips, I believe it's important to be able to evaluate information and also 
+                        understand it with an open mind. In my spare time, I enjoy dancing and drawing!
                     </p>
                     <a 
                         href="https://linkedin.com"
@@ -39,9 +44,14 @@ function Meet() {
                         className={styles.image}
                     />
                     <div className = {styles.infoSection}>
-                    <h2 className={styles.name}>John Smith</h2>
+                    <h2 className={styles.name}>Finnea Kohtz</h2>
+                    <p className={styles.subheader}>
+                        Vice-President • Sophomore • Biochemsitry and statistics major
+                    </p>
                     <p className={styles.bio}>
-                        Interested in computational modeling and data visualization.
+                        My research interests include rural environmental health, human exposure, and pollutants. Outside 
+                        of R-Squared, I am an undergraduate research assistant at the Manz Lab, an environmental chemistry 
+                        lab. Aside from research, I enjoy playing the bass, writing music, and embroidery!​​​​​​​​​​
                     </p>
                     <a 
                         href="https://linkedin.com"
@@ -60,10 +70,12 @@ function Meet() {
                         className={styles.image}
                     />
                     <div className = {styles.infoSection}>
-                    <h2 className={styles.name}>Emily Chen</h2>
-
+                    <h2 className={styles.name}>Baeksong Yoo</h2>
+                    <p className={styles.subheader}>
+                        Treasurer • Sophomore •  major
+                    </p>
                     <p className={styles.bio}>
-                        Focused on machine learning applications in healthcare research.
+                        loren ipsum
                     </p>
                     <a 
                         href="https://linkedin.com"
@@ -82,10 +94,14 @@ function Meet() {
                         className={styles.image}
                     />
                     <div className = {styles.infoSection}>
-                    <h2 className={styles.name}>Michael Lee</h2>
-
+                    <h2 className={styles.name}>Vaibhavi Rajesh</h2>
+                    <p className={styles.subheader}>
+                        Web-Developer • Sophomore • Electrical Engineering and Computer Engineering major
+                    </p>
                     <p className={styles.bio}>
-                        Dedicated to building impactful and accessible research tools.
+                        I am interested in machine learning, hardware and especially its applications in the sapce industry. Outside of R-Squared,
+                        I am part of NASA's SunRISE project focused on analyzing low-frequency radio emissions to support NASA's solar imaging efforts
+                        for coronal mass ejections. Aside from research, I love to dance and play the guitar! 
                     </p>
 
                     <a 

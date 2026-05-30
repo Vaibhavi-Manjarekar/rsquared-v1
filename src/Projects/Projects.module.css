@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+.header {
+  background-color: #F4C0AF;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header:hover{
+    background-color: #ffbda8;
+}
+
+
+.subtitle {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0;
+}
+
+.titleBox {
+  background-color: white;
+  margin-right: 10%;
+  padding: 30px 60px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.titleBox h1 {
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+  font-size: 58px;
+}
+
+.projectsSection {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.project {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.text {
+  margin-left: 40%;
+}
+
+.text h2 {
+  margin-bottom: 10px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.text p {
+  max-width: 500px;
+  line-height: 1.5;
+  font-family: "Libre Baskerville", serif;
+}

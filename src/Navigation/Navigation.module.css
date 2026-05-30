@@ -1,41 +1,64 @@
 .navbar {
     width: 100%;
-    height: 230px;
-    background-color:white;
+    background: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding-bottom: 90px;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
     box-sizing: border-box;
     font-family: Georgia, serif;
-    align-items: center;  
-    gap: 20px;
 }
 
-.logo {
-    width: 140px;
-    height: auto;
-    margin-bottom: 10px;
+/* LIGHT MODE (hero pages) */
+.navLight {
+    background: transparent;
+}
+
+.navLight a {
+    color: white;
+}
+
+.navLight .logo {
+    border: 2px solid white;
+}
+
+.navDark {
+    background: white;
+}
+
+.navDark a {
+    color: black;
+}
+
+.navDark .logo {
+    border: 2px solid black;
 }
 
 .navLinks {
     list-style: none;
-    display: flex; 
-    gap: 50px;  
+    display: flex;
+    gap: 50px;
     margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+
+.navLinks li {
+    margin: 0;
+    padding: 0;
 }
 
 .navLinks a {
     text-decoration: none;
-    color: black;
     font-size: 36px;
     letter-spacing: 2px;
     font-weight: 300;
-    margin: 0;
     line-height: 1.1;
 }
 
-.nav-links a:hover {
+.navLinks a:hover {
     text-decoration: underline;
 }

@@ -5,7 +5,7 @@
     min-height: 100vh;
     padding: 80px 40px;
     box-sizing: border-box;
-    background-color: #E8E7E7;
+    background-color: #F6EBE4;
     text-align: center;
 }
 
@@ -41,6 +41,7 @@
     background-color: #F4C0AF;
     padding: 20px;
     width: 100%;
+    margin-top: auto;
 }
 
 .card {
@@ -55,6 +56,7 @@
     align-items: center;
     margin-bottom: 90px;
     margin-top: 30px;
+    min-height: 500px;
 }
 
 .card:hover {
@@ -67,8 +69,8 @@
     height: 120px;
     object-fit: cover;
     border-radius: 50%;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     border: 2px solid black;
 }
 
@@ -96,4 +98,13 @@
 .linkedin:hover {
     transform: scale(1.15);
     color: #0A66C2;
+}
+
+.subheader {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 5px 0 15px 0;
+    opacity: 0.8;
 }
