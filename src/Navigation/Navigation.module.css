@@ -11,7 +11,6 @@
     font-family: Georgia, serif;
 }
 
-/* LIGHT MODE (hero pages) */
 .navLight {
     background: transparent;
 }
@@ -25,11 +24,12 @@
 }
 
 .navDark {
-    background: white;
+    background: #001F3CFF;
+    color: white;
 }
 
 .navDark a {
-    color: black;
+    color: white;
 }
 
 .navDark .logo {

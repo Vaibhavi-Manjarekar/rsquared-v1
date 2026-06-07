@@ -1,34 +1,37 @@
 import styles from "./About.module.css";
 import { useEffect, useRef, useState } from "react";
 import { FaPen, FaChartPie, FaDesktop } from "react-icons/fa";
+import logo from "../assets/umichM.png";
 
 
 function About() {
-    const textRef = useRef(null);
   const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
+  const sectionRef = useRef(null);
+
+    useEffect(() => {
     const observer = new IntersectionObserver(
-      ([entry]) => {
+        ([entry]) => {
         if (entry.isIntersecting) {
-          setVisible(true);
+            setVisible(true);
         }
-      },
-      { threshold: 0.3 }
+        },
+        { threshold: 0.3 }
     );
 
-    if (textRef.current) {
-      observer.observe(textRef.current);
+    if (sectionRef.current) {
+        observer.observe(sectionRef.current);
     }
 
     return () => observer.disconnect();
     }, []);
 
     return (
-        <div id="about" className={styles.container}>      
-            <h1 className={styles.title}>About Us</h1>
+        <div id="about"  ref={sectionRef} className={styles.container}>  
+        <img src={logo} alt="Logo" className={styles.logo} />    
+            <h1 className={`${styles.title} ${visible ? styles.show : ""}`}>About Us</h1>
             <div className={styles.line}></div>
-            <p ref={textRef}
+            <p 
                 className={`${styles.text} ${visible ? styles.show : ""}`}>
                 R-Squared hopes to help students interested in research to gain vital skills. 
                 We believe research should be practically significant and drive change. 

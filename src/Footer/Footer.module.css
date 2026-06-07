@@ -3,12 +3,11 @@
   justify-content: center;
   align-items: center;
   padding: 60px 40px;
-  background-color: #F4C0AF; 
+  background-color: white; 
   font-family: Georgia, sans-serif;
 }
 
 .whiteBox {
-  background-color: white;
   padding: 40px 60px;
   display: flex;
   justify-content: center;
@@ -25,11 +24,11 @@
 .column h3 {
   margin-bottom: 12px;
   font-size: 20px;
-  color: black;
+  color: #00274C;
 }
 
 .link {
-  color: black;
+  color: #00274C;
   text-decoration: none;
   margin-bottom: 8px;
   font-size: 16px;

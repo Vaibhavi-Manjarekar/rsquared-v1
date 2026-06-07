@@ -1,24 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
 
 .header {
-  background-color: #F4C0AF;
-  height: 170px;
+  background-color: white;
+  margin-top: 70px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  color: black;
 }
 
-.header:hover{
-    background-color: #ffbda8;
+.line {
+    width: 180px;
+    height: 2px;
+    background-color: black;
+    margin: 10px auto 20px auto;
+    opacity: 0.6;
 }
 
 
 .subtitle {
-  font-family: "Libre Baskerville", serif;
-  font-size: 18px;
-  max-width: 600px;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  max-width: 1000px;
   margin: 0;
+  text-align: center;
 }
 
 .titleBox {
@@ -30,7 +38,7 @@
 
 .titleBox h1 {
   margin: 0;
-  font-family: "Libre Baskerville", serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 58px;
 }
 
@@ -39,32 +47,48 @@
   display: flex;
   flex-direction: column;
   gap: 60px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
 }
-
 .project {
   display: flex;
-  gap: 30px;
   align-items: center;
+  gap: 40px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
 }
 
 .image {
-  width: 300px;
-  height: auto;
+  width: 540px;
+  height: 540px;
   object-fit: cover;
-}
-
-.text {
-  margin-left: 40%;
 }
 
 .text h2 {
   margin-bottom: 10px;
-  font-family: "Libre Baskerville", serif;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
 }
 
-.text p {
-  max-width: 500px;
-  line-height: 1.5;
-  font-family: "Libre Baskerville", serif;
+
+.learnMore {
+  display: inline-block;
+  margin-top: 20px;
+  color: #00274C;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.learnMore:hover {
+  color: #0056b3;
+  text-decoration: underline;
 }

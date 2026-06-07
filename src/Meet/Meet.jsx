@@ -5,9 +5,18 @@ import person2 from "../assets/r-squared logo.jpg";
 import person3 from "../assets/r-squared logo.jpg";
 import person4 from "../assets/r-squared logo.jpg";
 
+import backgroundImage from "../assets/umich_campus2.jpg";
+
 function Meet() {
     return (
-        <section className={styles.container}>
+        <section className={styles.container}
+        style={{
+            backgroundImage: `
+            linear-gradient(rgba(0, 39, 76, 0.85), #00274C),
+            url(${backgroundImage})
+            `,
+        }}
+        >
             <h1 className={styles.title}>Meet the E-Board!</h1>
             <div className={styles.line}></div>
             <div className={styles.cards}>
