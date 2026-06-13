@@ -182,7 +182,7 @@ function AppContent() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/rsquared-v1">
       <AppContent />
     </BrowserRouter>
   );
