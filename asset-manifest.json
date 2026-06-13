@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rsquared-v1/static/css/main.fb782d4d.css",
+    "main.js": "/rsquared-v1/static/js/main.e163467f.js",
+    "static/js/453.82328dc2.chunk.js": "/rsquared-v1/static/js/453.82328dc2.chunk.js",
+    "static/media/umich_campus2.jpg": "/rsquared-v1/static/media/umich_campus2.e35d2eb59a2d9d789959.jpg",
+    "static/media/umich-studying.jpg": "/rsquared-v1/static/media/umich-studying.3561cfc040ec9e3c7efa.jpg",
+    "static/media/major-credit.png": "/rsquared-v1/static/media/major-credit.b2dc41292a531fbb9a8f.png",
+    "static/media/umich_campus.jpg": "/rsquared-v1/static/media/umich_campus.6c56062fc01f3b2cdca9.jpg",
+    "static/media/result.png": "/rsquared-v1/static/media/result.3a25e20b0504e5e51437.png",
+    "static/media/time-preference.png": "/rsquared-v1/static/media/time-preference.2bd20ce97f37b1965aca.png",
+    "static/media/study-habit.jpg": "/rsquared-v1/static/media/study-habit.674e25ebd51d02b17161.jpg",
+    "static/media/gpa.png": "/rsquared-v1/static/media/gpa.7d7d5877f7a1f0dc3e64.png",
+    "static/media/sleep-vs-time.png": "/rsquared-v1/static/media/sleep-vs-time.da68381059178a9d9794.png",
+    "static/media/class-time.png": "/rsquared-v1/static/media/class-time.7410e68186ffedbaa0e6.png",
+    "index.html": "/rsquared-v1/index.html",
+    "main.fb782d4d.css.map": "/rsquared-v1/static/css/main.fb782d4d.css.map",
+    "main.e163467f.js.map": "/rsquared-v1/static/js/main.e163467f.js.map",
+    "453.82328dc2.chunk.js.map": "/rsquared-v1/static/js/453.82328dc2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb782d4d.css",
+    "static/js/main.e163467f.js"
+  ]
+}
