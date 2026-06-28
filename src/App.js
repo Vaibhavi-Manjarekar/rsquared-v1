@@ -9,7 +9,7 @@ import Projects from './Projects/Projects';
 import heroImage from "./assets/umich_campus.jpg";
 import StudentB from "./StudentB/StudentB";
 import Study from "./Study/Study";
-
+import Events from "./Events/Events"
 import './App.css';
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 
@@ -173,9 +173,28 @@ function AppContent() {
             </>
           }
         />
+      
+      <Route
+          path="/events"
+           element={
+            <>
+               <div className="curveDivider">
+              <svg
+                viewBox="0 0 1440 120"
+                preserveAspectRatio="none"
+              >
+                <path
+                  d="M0,0 L1440,0 L1440,80 L720,120 L0,80 Z"
+                  fill="#001F3CFF"
+                />
+              </svg>
+            </div>
+              <Events />
+              <Footer />
+            </>
+          }
+        />
       </Routes>
-      
-      
     </>
   );
 }

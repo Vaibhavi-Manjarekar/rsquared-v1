@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.eventsHeader {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: black;
+}
+
+.eventsTitleBox {
+  background-color: white;
+  padding: 30px 60px;
+}
+
+.eventsTitleBox h1 {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 58px;
+}
+
+.line {
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  margin: 10px auto 20px auto;
+  opacity: 0.6;
+}
+
+.eventsSubtitle {
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  font-size: 28px;
+  margin: 0;
+  text-align: center;
+}
+
+.eventsContainer {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.calendarBox {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.react-calendar {
+  border: none;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.react-calendar__tile {
+  padding: 12px 6px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.react-calendar__tile:hover {
+  background: #f0f4ff;
+}
+
+.react-calendar__tile--active {
+  background: #00274C !important;
+  color: white;
+}
+
+.react-calendar__navigation button {
+  font-family: 'Oswald', sans-serif;
+  color: #00274C;
+  font-size: 16px;
+}
+
+.selectedDate {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+}
+
+.eventList {
+  list-style: none;
+  padding: 0;
+}
+
+.eventItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-family: "Poppins", sans-serif;
+}
+
+.deleteBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.15s ease;
+}
+
+.deleteBtn:hover {
+  transform: scale(1.2);
+}
+
+.eventInputBox {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.eventInputBox input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+.eventInputBox button {
+  padding: 10px 15px;
+  background: #00274C;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.eventInputBox button:hover {
+  background: #0056b3;
+}
+
+.eventListBox {
+  margin-top: 25px;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.eventListBox h3 {
+  margin-bottom: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.eventListBox ul {
+  list-style: none;
+  padding: 0;
+}
+
+.eventListBox li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.noEvents {
+  color: gray;
+  font-style: italic;
+}

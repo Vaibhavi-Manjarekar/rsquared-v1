@@ -1,9 +1,9 @@
 import styles from "./Meet.module.css";
 import { FaLinkedin } from "react-icons/fa";
-import person1 from "../assets/r-squared logo.jpg";
-import person2 from "../assets/r-squared logo.jpg";
+import person1 from "../assets/Abigail.jpg";
+import person2 from "../assets/Finnea.jpg";
 import person3 from "../assets/r-squared logo.jpg";
-import person4 from "../assets/r-squared logo.jpg";
+import person4 from "../assets/Vaibhavi.jpg";
 
 import backgroundImage from "../assets/umich_campus2.jpg";
 
@@ -50,7 +50,7 @@ function Meet() {
                     <img 
                         src={person2} 
                         alt="Member" 
-                        className={styles.image}
+                        className={`${styles.image} ${styles.rotatedImage}`}
                     />
                     <div className = {styles.infoSection}>
                     <h2 className={styles.name}>Finnea Kohtz</h2>
