@@ -2,7 +2,7 @@ import styles from "./Meet.module.css";
 import { FaLinkedin } from "react-icons/fa";
 import person1 from "../assets/Abigail.jpg";
 import person2 from "../assets/Finnea.jpg";
-import person3 from "../assets/r-squared logo.jpg";
+import person3 from "../assets/Lily.jpg";
 import person4 from "../assets/Vaibhavi.jpg";
 
 import backgroundImage from "../assets/umich_campus2.jpg";
@@ -29,7 +29,7 @@ function Meet() {
                     <div className = {styles.infoSection}>
                     <h2 className={styles.name}>Abigail Shi</h2>
                     <p className={styles.subheader}>
-                        President • Junior • Biology Major • Stats Minor
+                        President • Junior • Biology Major • Statistics Minor
                     </p>
                     <p className={styles.bio}>
                        I'm passionate about research because I think learning about new things is both important and fun! Especially in the day and age 
@@ -81,10 +81,12 @@ function Meet() {
                     <div className = {styles.infoSection}>
                     <h2 className={styles.name}>Baeksong Yoo</h2>
                     <p className={styles.subheader}>
-                        Treasurer • Sophomore •  major
+                        Treasurer • Sophomore •  Biochemistry major
                     </p>
                     <p className={styles.bio}>
-                        loren ipsum
+                        Hi! I’m Baeksong (Lily) Yoo and I am a rising senior majoring in biochemistry 
+                        on a pre-med track. I am doing research at Michigan Medicine and have mainly focused on 
+                        health science research in R-squared.
                     </p>
                     <a 
                         href="https://linkedin.com"
