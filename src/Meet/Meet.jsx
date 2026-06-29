@@ -37,7 +37,7 @@ function Meet() {
                         understand it with an open mind. In my spare time, I enjoy dancing and drawing!
                     </p>
                     <a 
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/abigail-shi-082113328/"
                         target="_blank"
                         rel="noreferrer"
                         className={styles.linkedin}
@@ -63,7 +63,7 @@ function Meet() {
                         lab. Aside from research, I enjoy playing the bass, writing music, and embroidery!​​​​​​​​​​
                     </p>
                     <a 
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/finnea-kohtz-006aab346/"
                         target="_blank"
                         rel="noreferrer"
                         className={styles.linkedin}
@@ -116,7 +116,7 @@ function Meet() {
                     </p>
 
                     <a 
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/vaibhavi-manjarekar/"
                         target="_blank"
                         rel="noreferrer"
                         className={styles.linkedin}

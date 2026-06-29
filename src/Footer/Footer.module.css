@@ -1,17 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
 .footer {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 60px 40px;
-  background-color: white; 
-  font-family: Georgia, sans-serif;
-}
+  gap: 120px;
+  padding: 70px 40px;
+  font-family: "Poppins", sans-serif;
 
-.whiteBox {
-  padding: 40px 60px;
-  display: flex;
-  justify-content: center;
-  gap: 120px; 
+  background: #f8f9fa;
+  border-top: 1px solid #e5e7eb;
 }
 
 .column {
@@ -22,19 +19,39 @@
 }
 
 .column h3 {
-  margin-bottom: 12px;
-  font-size: 20px;
+  margin-bottom: 18px;
   color: #00274C;
+  font-size: 1.15rem;
+  font-weight: 600;
 }
 
 .link {
-  color: #00274C;
+  color: #5f6b7a;
   text-decoration: none;
-  margin-bottom: 8px;
-  font-size: 16px;
-  transition: 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 .link:hover {
-  color: #00bcd4;
+  color: #00274C;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.8rem;
+  color: #5f6b7a;
+
+  transition: all 0.2s ease;
+}
+
+.icon:hover {
+  color: #00274C;
+  transform: translateY(-2px);
 }
