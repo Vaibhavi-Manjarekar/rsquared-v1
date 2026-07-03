@@ -55,3 +55,34 @@
   color: #00274C;
   transform: translateY(-2px);
 }
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 20px;
+    align-items: center;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .column h3 {
+    font-size: 1.05rem;
+    margin-bottom: 12px;
+  }
+
+  .link {
+    font-size: 0.95rem;
+    word-break: break-word;
+  }
+
+  .socialIcons {
+    gap: 24px;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
+}

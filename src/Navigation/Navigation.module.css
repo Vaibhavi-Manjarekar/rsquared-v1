@@ -62,3 +62,27 @@
 .navLinks a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 24px 16px;
+    gap: 20px;
+  }
+
+  .logo {
+    width: 90px;
+    height: auto;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .navLinks a {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+}

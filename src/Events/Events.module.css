@@ -170,3 +170,93 @@
   color: gray;
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+  .eventsTitleBox {
+    padding: 20px;
+  }
+
+  .eventsTitleBox h1 {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .line {
+    width: 60px;
+    margin-bottom: 16px;
+  }
+
+  .eventsSubtitle {
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 1.5;
+  }
+
+  .eventsContainer {
+    padding: 30px 16px;
+  }
+
+  .calendarBox {
+    width: 100%;
+    max-width: 100%;
+    padding: 16px;
+    overflow-x: auto;
+  }
+
+  .react-calendar {
+    width: 100%;
+    min-width: 280px;
+    font-size: 0.9rem;
+  }
+
+  .react-calendar__tile {
+    padding: 10px 4px;
+  }
+
+  .react-calendar__navigation button {
+    font-size: 14px;
+  }
+
+  .selectedDate {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  .eventInputBox {
+    width: 100%;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .eventInputBox input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .eventInputBox button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .eventListBox {
+    width: 100%;
+    max-width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  .eventListBox h3 {
+    font-size: 22px;
+  }
+
+  .eventItem {
+    font-size: 15px;
+    gap: 10px;
+  }
+
+  .deleteBtn {
+    font-size: 20px;
+  }
+}
