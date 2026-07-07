@@ -144,7 +144,7 @@
   }
 
   .subsection:hover {
-    padding: 40px 20px; /* Prevent resizing on mobile */
+    padding: 40px 20px; 
   }
 
   .card {
@@ -164,5 +164,20 @@
 
   .icon {
     font-size: 28px;
+  }
+
+  
+}
+
+@media (hover: hover) {
+  .card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    background-color: white;
+  }
+
+  .subsection:hover {
+    background-color: #001F3C;
+    padding: 80px 30px;
   }
 }
